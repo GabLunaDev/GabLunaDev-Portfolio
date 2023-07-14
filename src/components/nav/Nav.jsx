@@ -10,12 +10,12 @@ function Nav() {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#'? 'active': ''}><AiOutlineHome/></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about'? 'active': ''}><BsPersonCircle/></a>
-      <a href="#tecnology" onClick={() => setActiveNav('#tecnology')} className={activeNav === '#tecnology'? 'active': ''}><AiOutlineCode/></a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#expirience'? 'active': ''}><BsBook/></a>
-      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio'? 'active': ''}><TbWorldCode/></a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'? 'active': ''}><BsChatDots/></a>
+      <a href="#" onClick={() => setActiveNav('#')} className={''}><AiOutlineHome/></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={''}><BsPersonCircle/></a>
+      <a href="#technology" onClick={() => setActiveNav('#tecnology')} className={''}><AiOutlineCode/></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={''}><BsBook/></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={''}><TbWorldCode/></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={''}><BsChatDots/></a>
     </nav>
   )
 }

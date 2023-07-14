@@ -6,7 +6,7 @@ import Footer from './components/footer/Footer'
 import Nav from './components/nav/Nav'
 import Portfolio from './components/portfolio/Portfolio'
 import About from './components/about/About'
-import Tecnology from './components/tecnology/Tecnology'
+import Technology from './components/technology/Technology'
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <Nav />
       <About />
-      <Tecnology/>
+      <Technology/>
       <Experience/>
       <Portfolio/>
       <Contact/>
