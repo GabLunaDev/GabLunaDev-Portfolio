@@ -16,6 +16,11 @@ section {
     transition: var(--transitions);
 }
 
+.experience:hover {
+    transform: scale(1.02);
+    cursor: default;
+}
+
 .experience__head {
     background: var(--color-primary);
     padding: 2rem;
@@ -44,5 +49,7 @@ section {
 
 .experience__content h5{
     margin-top: 2rem;
+    font-weight: 700;
+    color: var(--color-light);
     text-align: center;
 }

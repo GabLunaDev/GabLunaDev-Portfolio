@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import {AiOutlineInstagram, AiFillGithub, AiFillTwitterCircle} from 'react-icons/ai'
+import {AiOutlineInstagram, AiFillGithub, AiFillTwitterCircle, AiFillYoutube} from 'react-icons/ai'
 
 
 function Footer() {
@@ -20,6 +20,7 @@ function Footer() {
         <a href="https://github.com/GabLunaDev" target='_blank'><AiFillGithub style={{color: 'white'}}/></a>
         <a href="https://twitter.com/gabfromthemoon" target='_blank'><AiFillTwitterCircle style={{color: 'white'}}/></a>
         <a href="https://www.instagram.com/gablunac/" target='_blank'><AiOutlineInstagram style={{color: 'white'}}/></a>
+        <a href="https://www.youtube.com/@GabLuna" target='_blank'><AiFillYoutube style={{color: 'white'}}/></a>
       </div>
 
       <div className="footer__copyright">

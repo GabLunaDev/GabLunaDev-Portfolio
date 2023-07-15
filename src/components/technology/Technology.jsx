@@ -9,7 +9,7 @@ import {BiLogoNodejs, BiLogoTypescript, BiLogoMongodb,BiLogoPostgresql, BiLogoJa
 function Tecnology() {
   return (
     <section id='technology'>
-      <h5>Which Technologies and Tools I Work With</h5>
+      <h5>Which Stacks and Tools I Work With</h5>
       <h2>Technologies</h2>
 
       <div className="container technology__container">

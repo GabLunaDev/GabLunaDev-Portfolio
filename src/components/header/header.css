@@ -1,7 +1,10 @@
 header {
     height: 100vh;
-    padding-top: 22rem;
-    overflow: hidden;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header::before {
@@ -24,9 +27,7 @@ h1{
 }
 
 .header__container {
-    text-align: center;
-    height: 100%;
-    position: relative; 
+    position: relative;
 }
 
 .cta {
@@ -42,13 +43,6 @@ h1{
     justify-content: center;
     gap: 0.8rem;
 }
-.me {
-    margin-top: 1.8rem;
-    width: 20rem;
-    height: 20rem;
-    position: absolute;
-    left: calc(50% - 10rem);
-}
 
 .scroll__down {
     position: absolute;
@@ -56,13 +50,176 @@ h1{
     bottom: 9rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 3000px) {
     header {
-        height: 68vh;
+        height: 100vh;
+        padding: 45vh;
+    }
+    
+    .header__container {
+        text-align: center;
+        height: 100%;
+        position: relative;
+    }
+
+    .header__container h5 {
+        font-size: 1.7rem;
+    }
+
+    .header__container h1 {
+        font-size: 3.6rem;
+        margin-bottom: -1.4rem;
+        margin-top: -0.5rem;
+    }
+
+    .cta {
+        margin-top: 1.2rem;
+        font-size: 1.5rem;
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+    
+    .header__socials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.8rem;
     }
 
     .scroll__down {
-     bottom: 1rem;
+        position: absolute;
+        left: calc(50% - 8.47rem);
+        font-size: 2rem;
+        bottom: -50rem;
+    }
+}
+
+
+@media screen and (min-width: 2500px){
+    header {
+        padding: 42vh;
+    }
+    
+    .scroll__down {
+        bottom: -25rem;
+    }
+
+    .cta {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 2000px){
+    .scroll__down {
+        bottom: -10rem;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    header {
+        height: 100vh;
+    }
+    
+    .cta {
+        font-size: 1rem;
+    }
+
+    .scroll__down {
+     bottom: -8rem;
+    }
+}
+
+
+@media screen and (max-width: 1536px){
+    header {
+        height: 100vh;
+    }
+    
+    .cta {
+        font-size: 1rem;
+    }
+
+    .scroll__down {
+     bottom: -8rem;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    header {
+        height: 100vh;
+    }
+    
+    .cta {
+        font-size: 1rem;
+    }
+    
+    .scroll__down {
+        bottom: -10rem;
+    }
+}
+
+@media screen and (max-width: 1366px){
+    header {
+        height: 100vh;
+    }
+    
+    .cta {
+        font-size: 0.96rem;
+    }
+    
+    .scroll__down {
+        bottom: -8rem;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    header {
+        height: 100vh;
+    }
+    
+    .cta {
+        font-size: 0.96rem;
+    }
+
+    .scroll__down {
+     bottom: -7rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    header {
+        height: 100vh;
+    }
+    
+    .cta {
+        font-size: 0.96rem;
+    }
+
+    .scroll__down {
+     bottom: -8rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 0.1rem;
+    }
+    
+    .cta {
+        justify-content: center;
+        font-size: 0.9rem;
+    }
+
+    .scroll__down{
+        display: none;
     }
 }
 

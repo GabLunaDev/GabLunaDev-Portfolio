@@ -7,6 +7,7 @@ import Nav from './components/nav/Nav'
 import Portfolio from './components/portfolio/Portfolio'
 import About from './components/about/About'
 import Technology from './components/technology/Technology'
+import Academic from './components/academic/Academic'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Nav />
       <About />
       <Technology/>
+      <Academic/>
       <Experience/>
       <Portfolio/>
       <Contact/>
