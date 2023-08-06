@@ -14,8 +14,6 @@ function Header() {
         <h5 className="text-light">Back-end Developer</h5>
         <HeaderSocials/>
         <CTA/>
-
-        <a href="#contact" className='scroll__down'><HiOutlineArrowSmDown/>Scroll Down<HiOutlineArrowSmDown/></a>
       </div>
     </header>
   )

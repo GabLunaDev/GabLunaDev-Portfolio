@@ -74,7 +74,7 @@
         grid-template-columns: 1fr;
         gap: 0;
     }
-
+    
     .about__me{
         display: none;
     }
