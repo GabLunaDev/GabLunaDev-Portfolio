@@ -14,7 +14,7 @@ const AboutSection = () => {
     }
 
     return (
-        <section id="about" className='text-white'>
+        <section id="about" className='text-white px-12 py-4'>
             <div className='lg:grid lg:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:py-16 xl:px-16'>
                 <div className="rounded-full bg-gradient-to-br from-blue-500 via-purple-700 to-pink-500 border-8 border-[#181818] mb-9 w-[300px] h-[300px] lg:mb-0 lg:w-[375px] lg:h-[375px] xl:w-[500px] xl:h-[500px] relative">
                     <Image

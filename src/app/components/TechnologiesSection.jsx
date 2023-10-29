@@ -14,7 +14,7 @@ const TechnologiesSection = () => {
   }
   
   return (
-    <section>
+    <section id="technologies" className='px-12 py-4'>
       <div className='flex flex-col justify-center items-center py-9'>
         <p className='text-base text-purple-500'>Which Technologies I Work With</p>
         <h2 className='text-3xl font-extrabold'>Technologies</h2>
