@@ -12,6 +12,7 @@
     "@heroicons/react": "^2.0.18",
     "i18next": "^23.6.0",
     "next": "14.0.0",
+    "next-intl": "^2.21.0",
     "react": "^18",
     "react-dom": "^18",
     "react-i18next": "^13.3.1",

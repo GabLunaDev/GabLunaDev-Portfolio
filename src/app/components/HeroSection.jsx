@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
     return (
-        <section className="flex justify-center items-center h-screen bg-[url('/assets/bg.gif')] bg-cover bg-center">
+        <section id="home" className="flex justify-center items-center h-screen bg-[url('/assets/bg.gif')] bg-cover bg-center">
             <div className='w-full h-screen backdrop-blur-sm backdrop-brightness-50 flex flex-col justify-center items-center'>
                 <div className="text-center">
                     <h1 className="text-white mb-1 text-2xl lg:text-4xl font-bold">
@@ -16,7 +16,7 @@ const HeroSection = () => {
                     </h1>
                     <p className="text-[#ADB7BE] text-lg lg:text-xl mb-3">
                         <TypeAnimation
-                            sequence={['Game Developer', 1000, 'Back-End Developer', 1000, '3D Artist', 1000]}
+                            sequence={['Game Developer', 1000, 'Back-End Developer', 1000]}
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
