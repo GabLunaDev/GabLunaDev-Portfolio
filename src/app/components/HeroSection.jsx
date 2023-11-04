@@ -16,9 +16,9 @@ const HeroSection = () => {
                     </h1>
                     <p className="text-[#ADB7BE] text-lg lg:text-xl mb-3">
                         <TypeAnimation
-                            sequence={['Game Developer', 1000, 'Back-End Developer', 1000]}
+                            sequence={['Game Developer', 1500, 'Generalist Game Programmer', 1500]}
                             wrapper="span"
-                            speed={50}
+                            speed={40}
                             repeat={Infinity}
                         />
                     </p>

@@ -15,6 +15,11 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
+  corePlugins: {
+    listStyleType: false,
+  },
 }
 export default config
