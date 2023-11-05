@@ -1,14 +1,21 @@
-import getProjectsMetadata from "@/utils/getProjectsMetadata"
+import Image from "next/image";
+import getProjectsMetadata from "@/utils/getProjectsMetadata";
 
 const ProjectsSection = () => {
   const projectsMetadata = getProjectsMetadata();
   const projectsPreviews = projectsMetadata.map((project, index) => (
-    <article key={index} className="relative bg-[#181818] p-4 md:p-6 rounded-lg border border-transparent transition duration-300 hover:scale-[1.01] hover:border-purple-500 inline-block h-[500px] max-w-[400px]">
-      <div className="mb-4 h-[150px] md:h-[250px]">
-        <img
-          src={project.background_image}
+    <article
+      key={index}
+      className="relative bg-[#181818] p-4 md:p-6 rounded-lg border border-transparent transition duration-300 hover:scale-[1.01] hover:border-purple-500 inline-block h-[500px] max-w-[400px]"
+    >
+      <div className="mb-4 h-[150px] md:h-[250px] relative rounded-lg overflow-hidden">
+        <Image
+          src={`/images/${project.background_image}`}
           alt={`${project.title}-image`}
-          className="object-cover w-full h-full rounded-lg"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          className="rounded-lg"
         />
       </div>
       <h3 className="text-xl font-extrabold text-purple-500">
@@ -16,7 +23,10 @@ const ProjectsSection = () => {
       </h3>
       <div className="flex flex-row gap-2">
         {project.tags.map((tag, index) => (
-          <p key={index} className="text-xs bg-[#222222] rounded-xl px-2 py-[0.15rem]">
+          <p
+            key={index}
+            className="text-xs bg-[#222222] rounded-xl px-2 py-[0.15rem]"
+          >
             {tag}
           </p>
         ))}
