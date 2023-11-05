@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="w-full h-screen backdrop-blur-sm backdrop-brightness-50 flex flex-col justify-center items-center">
         <div className="text-center">
           <h1 className="text-white mb-1 text-2xl lg:text-4xl font-bold">
-            Hello, I'm
+            Hello, I&aspo;m
           </h1>
           <h1 className="text-white text-4xl lg:text-6xl font-extrabold mb-1">
             Gabriel Luna
