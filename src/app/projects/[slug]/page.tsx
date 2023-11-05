@@ -13,13 +13,10 @@ const getProjectsContent = (slug: string) => {
   const matterResult = matter(content);
   return matterResult;
 };
-
 export const generateStaticParams = async () => {
-  const projects = getProjectsMetadata();
-  return projects.map((project) => ({
-    params: {
-      slug: project.slug,
-    },
+  const posts = getProjectsMetadata();
+  return posts.map((post) => ({
+    slug: post.slug,
   }));
 };
 
