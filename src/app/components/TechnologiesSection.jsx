@@ -126,7 +126,7 @@ const TechnologiesSection = () => {
         {currentTechnologies.map((tech, index) => (
           <article
             key={index}
-            className="flex flex-col items-center justify-center p-8 relative border-[2px] border-slate-900 rounded-lg text-center transition-color transition-transform bg-gradient-to-tr from-blue-500 via-purple-700 to-pink-500 hover:bg-none hover:border-purple-800 hover:scale-[1.01]"
+            className="flex flex-col items-center justify-center p-8 relative border-[2px] border-slate-900 rounded-lg text-center transition-color transition-transform bg-gradient-to-tr from-blue-500 via-purple-700 to-pink-500 hover:bg-none hover:border-purple-800 hover:scale-[1.01] ease"
           >
             <div className={`mx-auto mb-1 text-4xl relative z-10`}>
               {tech.icon}

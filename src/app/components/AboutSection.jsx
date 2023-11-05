@@ -6,8 +6,9 @@ import {
   AiFillGithub,
   AiFillTwitterCircle,
   AiFillYoutube,
-  AiFillLinkedin
+  AiFillLinkedin,
 } from "react-icons/ai";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import TabButton from "./TabButton";
 
 const description = (
@@ -22,9 +23,15 @@ const description = (
       />
     </div>
     <div>
-      <h1 className="font-extrabold text-6xl pb-3 text-[#444444]">
+      <h1 className="font-extrabold text-6xl pb-1 text-[#444444]">
         DESCRIPTION
       </h1>
+      <div className="pb-2 grid grid-cols-2 text-purple-500">
+        <div className="bg-[#181818] h-full flex items-center justify-center rounded-xl">
+          <FaMapMarkerAlt className=""/>
+          <p className="px-2 text-center">Based on Recife, PE - Brasil</p>
+        </div>
+      </div>
       <p className="leading-snug">
         In the vibrant world of game development, creativity knows no bounds.
         Every pixel, line of code, and musical note collaborates to craft
@@ -151,21 +158,17 @@ const courses = (
         <li>
           <div className="bg-[#181818] py-2 px-4 rounded-lg">
             <h1 className="text-xl font-extrabold text-purple-500">
-                Complete C# Unity Game Developer 2D
+              Complete C# Unity Game Developer 2D
             </h1>
-            <h1 className="text-l">
-                GameDev.tv Team
-            </h1>
+            <h1 className="text-l">GameDev.tv Team</h1>
           </div>
         </li>
         <li>
           <div className="bg-[#181818] py-2 px-4 rounded-lg">
             <h1 className="text-xl font-extrabold text-purple-500">
-                Unreal Engine 5 C++ Developer
+              Unreal Engine 5 C++ Developer
             </h1>
-            <h1 className="text-l">
-                GameDev.tv Team
-            </h1>
+            <h1 className="text-l">GameDev.tv Team</h1>
           </div>
         </li>
       </ul>
