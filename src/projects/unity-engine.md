@@ -1,13 +1,11 @@
 ---
 order: 1
-title: "Unity Engine"
+title: "Unity Engine: Uma Visão Geral"
 short_description: "A Unity Engine é uma poderosa ferramenta de desenvolvimento de jogos"
-background_image: "https://br.advfn.com/jornal/files/2022/05/unity.png"
+background_image: "unity.png"
 github_link: "https://github.com/godotengine/godot"
 tags: ["Godot", "Tutorial"]
 ---
-
-# Unity Engine: Uma Visão Geral
 
 A **Unity Engine** é uma poderosa ferramenta de desenvolvimento de jogos e aplicações interativas que ganhou destaque na indústria devido à sua versatilidade e facilidade de uso. Desenvolvida pela Unity Technologies, a engine oferece um ambiente intuitivo e robusto para criar experiências interativas em 2D, 3D, realidade aumentada (AR) e realidade virtual (VR).
 
@@ -25,7 +23,7 @@ A **Unity Engine** é uma poderosa ferramenta de desenvolvimento de jogos e apli
 
 ## Exemplo de Código Unity
 
-```csharp
+```cs
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -41,3 +39,4 @@ public class PlayerController : MonoBehaviour
         transform.Translate(movement);
     }
 }
+```

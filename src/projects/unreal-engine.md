@@ -2,7 +2,7 @@
 order: 1
 title: "Unreal Engine"
 short_description: "A Unreal Engine é uma poderosa e amplamente utilizada engine de desenvolvimento de jogos e simulações."
-background_image: "https://cdn2.unrealengine.com/how-to-light-an-exterior-architectural-scene-1920x1080-c2ddc70117ec.jpg?resize=1&w=1920"
+background_image: "unreal-bg-image.jpeg"
 github_link: "https://github.com/godotengine/godot"
 tags: ["Unreal Engine", "Tutorial"]
 ---
