@@ -64,8 +64,8 @@ const ProjectsSection = () => {
       className="flex flex-col justify-center items-center"
     >
       <div className="flex flex-col justify-center items-center py-9">
-        <p className="text-base text-purple-500">My Projects!</p>
-        <h2 className="text-3xl font-extrabold">Projects</h2>
+        <p className="text-sm lg:text-base text-purple-500">My Projects!</p>
+        <h2 className="text-2xl lg:text-3xl font-extrabold">Projects</h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-10">
         {projectsPreviews}

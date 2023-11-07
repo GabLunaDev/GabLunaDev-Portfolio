@@ -37,7 +37,7 @@ function ProjectPage(props: any) {
           className="z-0"
         />
       </div>
-      <article className="container mt-10 mx-auto px-12 py-4 prose prose-h1:text-4xl prose-h2:text-2xl prose-h3:text-xl prose-strong:text-indigo-500 prose-a:underline prose-a:text-gray-200 prose-p:text-base prose-pre:leading-6 lg:prose-xl dark:prose-invert">
+      <article className="container mt-10 mx-auto px-12 py-4 prose prose-h1:text-3xl lg:prose-h1:text-4xl prose-h2:text-xl lg:prose-h2:text-2xl prose-h3:text-lg lg:prose-h3:text-xl prose-strong:text-indigo-500 prose-a:underline prose-a:text-gray-200 prose-p:text-sm lg:prose-p:text-base prose-pre:text-sm lg:prose-pre:text-base prose-pre:leading-6 lg:prose-xl dark:prose-invert">
         <h1>{post.data.title}</h1>
         <Markdown>{post.content}</Markdown>
       </article>

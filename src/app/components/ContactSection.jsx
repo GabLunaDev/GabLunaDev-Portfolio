@@ -24,8 +24,8 @@ const Contact = () => {
   return (
     <section id="contact" className="py-16">
       <div className="flex flex-col justify-center items-center py-10">
-        <p className="text-base text-purple-500">Get In Touch</p>
-        <h2 className="text-3xl font-extrabold">Contact Me</h2>
+        <p className="text-sm lg:text-base text-purple-500">Get In Touch</p>
+        <h2 className="text-2xl lg:text-3xl font-extrabold">Contact Me</h2>
       </div>
       <div className="flex flex-col gap-10 justify-center md:flex-row">
         <div className="flex flex-col items-center gap-6">
