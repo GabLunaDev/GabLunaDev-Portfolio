@@ -35,16 +35,18 @@ const description = (
         </div>
       </div>
       <p className="leading-snug text-justify lg:text-left text-xs sm:text-sm xl:text-base">
-        In the vibrant world of game development, creativity knows no bounds.
-        Every pixel, line of code, and musical note collaborates to craft
-        immersive experiences that transcend reality. Game development is an
-        intricate dance between artistry and technology, where passionate
-        visionaries blend graphic design, narrative expertise, and programming
-        prowess. From indie studios to gaming giants, developers harness
-        cutting-edge engines and sophisticated tools to sculpt breathtaking
-        landscapes, dynamic characters, and heart-pounding gameplay.
-        Collaboration thrives as diverse teams merge talents, shaping worlds
-        ranging from fantasy realms to futuristic galaxies.
+        With over two years of experience as a web developer, my name is Gabriel
+        Luna. Since childhood, I have always been an extremely curious person.
+        My journey into the world of video games began when I was fortunate
+        enough to receive a PlayStation 2 from my father. From that moment on, I
+        explored incredible worlds, honed my motor skills, and built meaningful
+        connections with people who remain an important part of my life to this
+        day. Although my current career is not directly tied to games, they have
+        always been a compass guiding my professional choices and experiences in
+        other fields. Today, I strive to enhance my skills as a game developer,
+        dedicating my time to personal projects and collaborating with
+        individuals who share the same dream: to turn a passion for games into a
+        fulfilling and full-time career.
       </p>
       <h2 className="pt-7 font-semibold text-purple-500">Socials:</h2>
       <div className="flex justify-left gap-4 py-1">
@@ -91,19 +93,19 @@ const description = (
 const university = (
   <div className="flex flex-col justify-center gap-8 items-center px-4 lg:grid lg:grid-cols-2 xl:gap-16 xl:py-16 xl:px-16">
     <div className="rounded-full bg-gradient-to-br from-blue-500 via-purple-700 to-pink-500 border-8 border-[#181818] w-[275px] h-[275px] md:w-[300px] md:h-[300px] lg:mb-0 lg:w-[375px] lg:h-[375px] xl:w-[500px] xl:h-[500px] lg:relative">
-        <Image
-          src="/assets/bg-04.gif"
-          alt="Gabriel Luna"
-          className="lg:absolute rounded-full lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2"
-          width={500}
-          height={500}
-        />
+      <Image
+        src="/assets/bg-04.gif"
+        alt="Gabriel Luna"
+        className="lg:absolute rounded-full lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:top-1/2 lg:left-1/2"
+        width={500}
+        height={500}
+      />
     </div>
     <div>
       <h1 className="font-extrabold text-center lg:text-left text-4xl lg:text-5xl xl:text-6xl pb-1 text-[#444444]">
         UNIVERSITY
       </h1>
-      <div class="">
+      <div className="">
         <div className="flex flex-col lg:flex-row  items-center">
           <div className="border-[2px] hidden lg:block border-[#222222] mr-3 rounded-lg py-1 px-1">
             <Image
@@ -155,7 +157,9 @@ const courses = (
       />
     </div>
     <div>
-      <h1 className="font-extrabold text-center lg:text-left text-4xl lg:text-5xl xl:text-6xl pb-1 text-[#444444]">COURSES</h1>
+      <h1 className="font-extrabold text-center lg:text-left text-4xl lg:text-5xl xl:text-6xl pb-1 text-[#444444]">
+        COURSES
+      </h1>
       <ul className="space-y-4">
         <li>
           <div className="bg-[#181818] py-2 px-4 rounded-lg">
@@ -200,7 +204,9 @@ const AboutSection = () => {
   return (
     <section id="about" className="text-white">
       <div className="flex flex-col justify-center items-center pt-9">
-        <p className="text-sm lg:text-base text-purple-500">Nice To Meet You!</p>
+        <p className="text-sm lg:text-base text-purple-500">
+          Nice To Meet You!
+        </p>
         <h2 className="text-2xl lg:text-3xl font-extrabold">About Me</h2>
       </div>
       <div className="flex flex-row justify-center gap-4 py-4">
